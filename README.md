@@ -61,7 +61,7 @@ The expected file contains 70,692 observations, 21 input indicators, and the bin
 1. Clone the repository and enter its directory:
 
    ```bash
-   git clone https://github.com/YOUR-USERNAME/fuzzy-diabetes-risk-prediction.git
+   git clone https://github.com/norsienora/fuzzy-diabetes-risk-prediction.git
    cd fuzzy-diabetes-risk-prediction
    ```
 
