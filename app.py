@@ -146,16 +146,16 @@ if st.button("Predict Diabetes Risk"):
             label="Mamdani Risk Score",
             value=f"{mamdani_score:.2f}"
         )
-        st.write(f"Kategori: **{risk_category(mamdani_score)}**")
-        st.write(f"Prediksi: **{class_label(mamdani_pred)}**")
+        st.write(f"Category: **{risk_category(mamdani_score)}**")
+        st.write(f"Prediction: **{class_label(mamdani_pred)}**")
 
     with col2:
         st.metric(
             label="Sugeno Risk Score",
             value=f"{sugeno_score:.2f}"
         )
-        st.write(f"Kategori: **{risk_category(sugeno_score)}**")
-        st.write(f"Prediksi: **{class_label(sugeno_pred)}**")
+        st.write(f"Category: **{risk_category(sugeno_score)}**")
+        st.write(f"Prediction: **{class_label(sugeno_pred)}**")
 
     st.info(
         """
